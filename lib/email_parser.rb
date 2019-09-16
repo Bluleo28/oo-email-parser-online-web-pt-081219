@@ -11,7 +11,7 @@ class EmailParser
     splitEmail.flatten.uniq
     returnArr
   end
-end
+  end
 
  emails1 = "asd2GW.com,per@er.org, Zaza.net"
  parser1 = EmailParser.new(emails1)
