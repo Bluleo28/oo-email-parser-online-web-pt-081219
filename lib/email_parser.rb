@@ -11,12 +11,11 @@ attr_accessor :name,
       @csv_emails = csv_emails
   end
 
-  def parse 
-    csv_emails.splits 
+  def parse
+    csv_emails.splits
     collect do |address|
       address.split(',')
     end
     .flatten.uniq
   end
-end 
-
+end
