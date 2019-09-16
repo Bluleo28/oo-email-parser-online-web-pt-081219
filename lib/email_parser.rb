@@ -13,6 +13,7 @@ def parse
     returnArr
   end
 end
+end
 
 emails1 = "avi@test.com,arel@test.com, test@avi.com"
 parser1 = EmailParser.new(emails1)
