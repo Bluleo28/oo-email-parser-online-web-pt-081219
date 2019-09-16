@@ -1,17 +1,20 @@
 class EmailParser
-  attr_accessor :name, :csv_emails
+  attr_accessor :emails
 
   def initialize(csv_emails)
-    @csv_emails = csv_emails
+    @emails = emails
   end
 
   def parse
-    csv_emails.split.collect do |address|
-      address.split(',')
+    puts splitEmail = {}|address|
+      address.split(',')}
     end
-    .flatten.uniq
+    returnArr =
+    splitEmail.flatten.uniq
+    returnArr
   end
 end
+
  emails1 = "asd2GW.com,per@er.org, Zaza.net"
  parser1 = EmailParser.new(emails1)
  parser1.parse
