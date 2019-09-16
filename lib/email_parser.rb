@@ -10,7 +10,7 @@ def parse
     returnArr =
     splitEmail.flatten.uniq
     returnArr
-end
+  end
 end
 
 emails1 = "asd2GW.com,per@er.org, Zaza.net"
