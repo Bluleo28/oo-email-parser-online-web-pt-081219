@@ -6,7 +6,7 @@ class EmailParser
   end
 
   def parse
-    puts splitEmail = {}|address|
+    puts splitEmail = {|address|
       address.split(',')}
     end
     returnArr =
