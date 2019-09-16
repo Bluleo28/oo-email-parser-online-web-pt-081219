@@ -14,7 +14,7 @@ def parse
   end
 end
 
-emails1 = "avi@test.com,arel@test.com"
+emails1 = "avi@test.com, arel@test.com, test@avi.com"
 parser1 = EmailAddressParser.new(emails1)
 parser1.parse
 
