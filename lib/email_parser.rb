@@ -10,6 +10,6 @@ class EmailParser
   def initialize(csv_emails)
       @csv_emails = csv_emails
   end
-end 
+end
   # email_addresses = "avi@test.com, arel@test.com"
   # parser.parse
