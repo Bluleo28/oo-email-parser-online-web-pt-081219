@@ -9,7 +9,7 @@ end
 def parse
     puts csv_emails.split.collect do |address| address.split(',')
     end
-    flatten.uniq
+    .flatten.uniq
     returnArr
   end
 end
