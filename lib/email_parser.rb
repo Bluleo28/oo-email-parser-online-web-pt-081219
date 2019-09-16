@@ -1,4 +1,4 @@
-class EmailParser
+class emailParser
 attr_accessor :name, :csv_emails
 
 
